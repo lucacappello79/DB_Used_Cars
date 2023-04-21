@@ -1,23 +1,31 @@
+Rivenditore Online di Auto Usate in Italia:
+
 ID - MEDIUMINT - PRIMARY_KEY , AUTO_INCREMENT
 
 Marca - VARCHAR(20) - NOT_NULL
-Modello - VARCHAR(20) - NOT_NULL
-Versione - VARCHAR(30) - NULL
-Prezzo - FLOAT(6,3) - NOT_NULL			
+Modello - VARCHAR(30) - NOT_NULL
+Versione - VARCHAR(50) - NULL
+Prezzo - DECIMAL(6,3) - NOT_NULL			
 
-Immatricolazione - YEAR - NOT_NULL
+Immatricolazione - DATE - NOT_NULL
 Carrozzeria - VARCHAR(20) - NOT_NULL
 Carburante - VARCHAR(30) - NOT_NULL
 Regione - VARCHAR(21) - NOT_NULL
 Citta - VARCHAR (34) - NOT_NULL
 Raggio (km) - SMALLINT - NULL
 
-Chilometraggio - SMALLINT, NOT_NULL
-Potenza (kw) - SMALLINT, NOT_NULL
-Cambio - VARCHAR(15), NOT_NULL
+Chilometraggio - SMALLINT - NOT_NULL
+Potenza (kw) - SMALLINT - NOT_NULL
+Cilindrata - SMALLINT - NOT_NULL
+Cambio - VARCHAR(15) - NOT_NULL
+
+Colore - VARCHAR(20) -NULL
+Interni - VARCHAR(20) - NULL
+Proprietari - TINYINT - NOT_NULL
 
 Venditore - VARCHAR(20), NOT_NULL
 Descrizione - TEXT - NOT_NULL
+
   
 
 
