@@ -9,7 +9,7 @@ Immatricolazione - YEAR - NOT_NULL
 Carrozzeria - VARCHAR(20) - NOT_NULL
 Carburante - VARCHAR(30) - NOT_NULL
 Regione - VARCHAR(21) - NOT_NULL
-Citta - varchar (34) - NOT_NULL
+Citta - VARCHAR (34) - NOT_NULL
 Raggio (km) - SMALLINT - NULL
 
 Chilometraggio - SMALLINT, NOT_NULL
